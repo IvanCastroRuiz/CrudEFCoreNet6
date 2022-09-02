@@ -1,0 +1,16 @@
+﻿@model IEnumerable<CrudEFCoreNet6.Models.Usuario>
+
+    @{
+    ViewData["Title"] = "Inicio";
+    }
+
+
+  <h1 class="text-center">Welcome CRUD Usuarios</h1>
+  <div class="row">
+      <div class="col-12">
+          <div class="float-rigth">
+              <a asp-action="Crear" asp-controller="Home" class="btn btn-success"><i class="bi bi-file-plus-fill"></i> Nuevo Usuario</a>
+          </div>
+      </div>
+  </div>   
+
