@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Trabajo Ivan Castro Ruiz\Informacion ICR\Programacion - ASP.NET CORE MVC\CrudEFCoreNet6
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Trabajo Ivan Castro Ruiz/Informacion ICR/Programacion - ASP.NET CORE MVC/CrudEFCoreNet6/Views/Home/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Trabajo Ivan Castro Ruiz/Informacion ICR/Programacion - ASP.NET CORE MVC/CrudEFCoreNet6/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

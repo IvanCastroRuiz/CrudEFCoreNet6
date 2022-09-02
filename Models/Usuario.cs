@@ -21,15 +21,15 @@ namespace CrudEFCoreNet6.Models
         public string Email { get; set; }
 
         // Constructor 
-        public Usuario(int id, string nombre, string telefono, string celular, string email) 
-        {
-            this.Id = id;
-            this.Nombre = nombre;
-            this.Telefono = telefono;
-            this.Celular = celular;
-            this.Email = email;
+        // public Usuario(int id, string nombre, string telefono, string celular, string email) 
+        // {
+        //     this.Id = id;
+        //     this.Nombre = nombre;
+        //     this.Telefono = telefono;
+        //     this.Celular = celular;
+        //     this.Email = email;
    
-        }
+        // }
 
     }
 }

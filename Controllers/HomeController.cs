@@ -1,8 +1,8 @@
-﻿using System.Diagnostics;
+﻿using CrudEFCoreNet6.Data;
+using CrudEFCoreNet6.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using CrudEFCoreNet6.Models;
-using CrudEFCoreNet6.Data;
+using System.Diagnostics;
 
 namespace CrudEFCoreNet6.Controllers;
 
@@ -20,6 +20,25 @@ public class HomeController : Controller
     public async Task<IActionResult> Index()
     {
         return View(await _contexto.Usuario.ToListAsync());
+    }
+
+    [HttpGet]
+    public IActionResult Crear()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Crear(Usuario usuario)
+    {
+        if (ModelState.IsValid)
+        {
+            _contexto.Usuario.Add(usuario);
+            await _contexto.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+        return View();
     }
 
     public IActionResult Privacy()
