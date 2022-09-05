@@ -20,16 +20,6 @@ namespace CrudEFCoreNet6.Models
         [Required(ErrorMessage = "El email es obligatorio")]
         public string Email { get; set; }
 
-        // Constructor 
-        // public Usuario(int id, string nombre, string telefono, string celular, string email) 
-        // {
-        //     this.Id = id;
-        //     this.Nombre = nombre;
-        //     this.Telefono = telefono;
-        //     this.Celular = celular;
-        //     this.Email = email;
-   
-        // }
 
     }
 }

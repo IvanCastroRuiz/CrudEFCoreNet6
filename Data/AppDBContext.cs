@@ -7,7 +7,6 @@ namespace CrudEFCoreNet6.Data
     {
         public AppDBContext(DbContextOptions<AppDBContext> options): base(options)
         {
-
         }
 
         public DbSet<Usuario>? Usuario {get; set;}
